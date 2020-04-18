@@ -12,7 +12,7 @@ def initialize(email_addresses)
 end
 
 def parse
-  @email_addresses.split(/[,\s]/).delete("")
+  @email_addresses.split(/[,\s]/)
 end
 
 end
