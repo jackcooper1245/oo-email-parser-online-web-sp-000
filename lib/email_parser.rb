@@ -12,7 +12,7 @@ def initialize(email_addresses)
 end
 
 def parse
-  @email_addresses.split(/[,\s]/).map(&:strip)
+  @email_addresses.strip.split(/[,\s]/)
 end
 
 end
